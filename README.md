@@ -2,7 +2,7 @@
 ## Structure
 The script checks the volume of four large reddit finance forums, WBS, Stocks, Investing and Pennystocks.
 
-After finding the volume the script either scrapes the top two WBS posts if the forum has had over 2000 posts that day (or if the average posts over the last four days has been over 1500). It subsequently finds the most popular tickers mentioned on WBS and sends it to an email. 
+After finding the volume the script either scrapes the top two WBS posts if the forum has had over 2000 posts that day (or if the average posts over the last four days has been over 1500). It subsequently finds the most popular tickers mentioned on WBS and sends the result to a specified email. 
 
 Note: you need an email client that can send the emails. I'm using sendinblue which allows 300 free emails each day. See the website and documentation for guidance if you want to send emails.
 
